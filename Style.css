@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	height: 80px;
+	float: left;
+}
+
+header {
+    background-color: #001a4d;
+    border-bottom: 3px solid white;
+}
+
+.container {
+	background-color: #001a4d;
+	max-width: 1024px;
+	width: 100%;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.container::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+nav {
+	background-color: #001a4d;
+    width: 700px;
+    float: right;
+    line-height: 80px;
+    font-size: 25px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+   text-decoration: none;
+   margin: 0 10px;
+   color: white;
+}
+
+nav a:hover {
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+.add_header {
+	background-color: #001a4d;
+	border-bottom: 3px solid white;
+	text-align: center;
+}
+
+.slogan	{
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 35px;
+	margin: 50px 0;
+}
+
+.btn {
+	background-color: white;
+	width: 150px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 900;
+	border-radius: 20px;
+	padding: 15px;
+	margin-bottom: 50px;
+	color: black;
+}
+
+nav ul li:last-child {
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+nav ul li:last-child a {
+    color: black;
+}
+
+.News	{
+	color: black;
+}
+
+.article {
+	float: left;
+    width: 65%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.article::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.content {
+	background-color: gray;
+}
+
+.content > .container {
+	background-color: gray;
+}
+
+.article_text {
+	float: left;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.heading {
+	font-size: 20px;
+}
+
+.desc {
+	font-size: 15px;
+}
+
+.date {
+	font-size: 15px;
+}
+
+.article_image {
+	height: 150px;
+	width: 150px;
+	float: right;
+}
+
+.article_image > img {
+	height: 100%;
+	width: 100%;
+}
+
+.article {
+	margin-bottom: 10px;
+}
+
+.sidebar {
+    border: 1px solid black;
+    float: right;
+    width: 28%;
+}
+
+.contact-form > input, .btn, textarea {
+ display: block;
+ width: 50%;
+ margin: 10px auto;
+ padding: 10px;
+ font-size: 25px;
+ border-radius: 10px;
+ outline: none;
+}
+
+.btn {
+	background-color: lime;
+	border-radius: 10px;
+}
+
+textarea {
+	resize: none;
+}
